@@ -1,0 +1,48 @@
+{
+  "imports": {
+    "preact-render-to-string": "./esm.sh/_preact-render-to-string@6.2.0.js",
+    "std/path/mod.ts": "./deno.land/std@0.204.0/path/mod.ts",
+    "https://esm.sh/marked@5.1.0/": "./esm.sh/marked@5.1.0.js/",
+    "https://esm.sh/marked-mangle@v1.1.0/": "./esm.sh/marked-mangle@v1.1.0.js/",
+    "https://esm.sh/marked-gfm-heading-id@3.0.4/": "./esm.sh/marked-gfm-heading-id@3.0.4.js/",
+    "https://esm.sh/prismjs@1.29.0": "./esm.sh/prismjs@1.29.0.js",
+    "https://esm.sh/sanitize-html@2.8.1?target=esnext": "./esm.sh/sanitize-html@2.8.1.js",
+    "https://esm.sh/he@1.2.0": "./esm.sh/he@1.2.0.js",
+    "https://deno.land/": "./deno.land/",
+    "https://esm.sh/": "./esm.sh/",
+    "preact/jsx-runtime": "./esm.sh/preact@10.15.1/jsx-runtime.js"
+  },
+  "scopes": {
+    "./esm.sh/": {
+      "/v133/preact-render-to-string@6.2.0/X-ZS8q/denonext/preact-render-to-string.mjs": "./esm.sh/v133/preact-render-to-string@6.2.0/X-ZS8q/denonext/preact-render-to-string.mjs",
+      "/v134/he@1.2.0/denonext/he.mjs": "./esm.sh/v134/he@1.2.0/denonext/he.mjs",
+      "/v134/katex@0.16.8/denonext/dist/katex.js": "./esm.sh/v134/katex@0.16.8/denonext/dist/katex.js",
+      "/v134/github-slugger@2.0.0/denonext/github-slugger.mjs": "./esm.sh/v134/github-slugger@2.0.0/denonext/github-slugger.mjs",
+      "/v134/marked-gfm-heading-id@3.0.4/denonext/marked-gfm-heading-id.mjs": "./esm.sh/v134/marked-gfm-heading-id@3.0.4/denonext/marked-gfm-heading-id.mjs",
+      "/v134/marked-mangle@1.1.0/denonext/marked-mangle.mjs": "./esm.sh/v134/marked-mangle@1.1.0/denonext/marked-mangle.mjs",
+      "/v134/marked@5.1.0/denonext/marked.mjs": "./esm.sh/v134/marked@5.1.0/denonext/marked.mjs",
+      "/v134/prismjs@1.29.0/denonext/prismjs.mjs": "./esm.sh/v134/prismjs@1.29.0/denonext/prismjs.mjs",
+      "/v134/htmlparser2@8.0.2/esnext/htmlparser2.mjs": "./esm.sh/v134/htmlparser2@8.0.2/esnext/htmlparser2.mjs",
+      "/v134/escape-string-regexp@4.0.0/esnext/escape-string-regexp.mjs": "./esm.sh/v134/escape-string-regexp@4.0.0/esnext/escape-string-regexp.mjs",
+      "/v134/is-plain-object@5.0.0/esnext/is-plain-object.mjs": "./esm.sh/v134/is-plain-object@5.0.0/esnext/is-plain-object.mjs",
+      "/v134/deepmerge@4.3.1/esnext/deepmerge.mjs": "./esm.sh/v134/deepmerge@4.3.1/esnext/deepmerge.mjs",
+      "/v134/parse-srcset@1.0.2/esnext/parse-srcset.mjs": "./esm.sh/v134/parse-srcset@1.0.2/esnext/parse-srcset.mjs",
+      "/v134/postcss@8.4.31/esnext/postcss.mjs": "./esm.sh/v134/postcss@8.4.31/esnext/postcss.mjs",
+      "/v134/sanitize-html@2.8.1/esnext/sanitize-html.mjs": "./esm.sh/v134/sanitize-html@2.8.1/esnext/sanitize-html.mjs",
+      "/stable/preact@10.15.1/denonext/preact.mjs": "./esm.sh/stable/preact@10.15.1/denonext/preact.mjs",
+      "preact": "./esm.sh/preact@10.15.1.js",
+      "/v134/base64-js@1.5.1/esnext/base64-js.mjs": "./esm.sh/v134/base64-js@1.5.1/esnext/base64-js.mjs",
+      "/v134/ieee754@1.2.1/esnext/ieee754.mjs": "./esm.sh/v134/ieee754@1.2.1/esnext/ieee754.mjs",
+      "/v134/domelementtype@2.3.0/esnext/domelementtype.mjs": "./esm.sh/v134/domelementtype@2.3.0/esnext/domelementtype.mjs",
+      "/v134/entities@4.5.0/esnext/entities.mjs": "./esm.sh/v134/entities@4.5.0/esnext/entities.mjs",
+      "/v134/domhandler@5.0.3/esnext/domhandler.mjs": "./esm.sh/v134/domhandler@5.0.3/esnext/domhandler.mjs",
+      "/v134/dom-serializer@2.0.0/esnext/dom-serializer.mjs": "./esm.sh/v134/dom-serializer@2.0.0/esnext/dom-serializer.mjs",
+      "/v134/entities@4.5.0/esnext/lib/decode.js": "./esm.sh/v134/entities@4.5.0/esnext/lib/decode.js",
+      "/v134/domutils@3.1.0/esnext/domutils.mjs": "./esm.sh/v134/domutils@3.1.0/esnext/domutils.mjs",
+      "/v134/node_process.js": "./esm.sh/v134/node_process.js",
+      "/v134/buffer@6.0.3/esnext/buffer.mjs": "./esm.sh/v134/buffer@6.0.3/esnext/buffer.mjs",
+      "/v134/picocolors@1.0.0/esnext/picocolors.mjs": "./esm.sh/v134/picocolors@1.0.0/esnext/picocolors.mjs",
+      "/v134/nanoid@3.3.7/esnext/non-secure.js": "./esm.sh/v134/nanoid@3.3.7/esnext/non-secure.js"
+    }
+  }
+}

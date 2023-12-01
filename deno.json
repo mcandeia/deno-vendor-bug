@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "preact": "https://esm.sh/preact@10.15.1",
+    "preact/": "https://esm.sh/preact@10.15.1/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.2.0",
+    "std/": "https://deno.land/std@0.204.0/"
+  },
+  "lock": false,
+  "githooks": {
+    "pre-commit": "check"
+  },
+  "exclude": ["static", "README.md", "**/README.md"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "importMap": "./vendor/import_map.json"
+}
